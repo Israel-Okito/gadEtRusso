@@ -21,7 +21,12 @@
           validation: (Rule) => Rule.required(),
         },
   
- 
+        {
+          name: "fournisseur",
+          title: "Nom du fournisseur",
+          type: "string",
+          validation: (Rule) => Rule.required(),
+        },
 
         {
             name: "createdAt",
