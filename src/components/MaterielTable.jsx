@@ -37,8 +37,8 @@ export const MaterielTable = ({fetchmateriel}) => {
                priority
               />
             </TableCell>
-            <TableCell className="border-r border-white">{tech.nom}</TableCell>
-            <TableCell className="text-right border-r border-white">{tech.fournisseur}</TableCell>
+            <TableCell className="border-r border-white text-white">{tech.nom}</TableCell>
+            <TableCell className="text-right border-r border-white text-white">{tech.fournisseur}</TableCell>
               <Link href={`/materiel/${tech.slug.current}`} className='bg-blue-900 font-bold  mx-1 py-2   text-center ' >
                <TableCell  >
                   Voir plus

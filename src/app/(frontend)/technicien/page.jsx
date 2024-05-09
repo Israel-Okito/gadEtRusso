@@ -56,8 +56,8 @@ const page = async () => {
               />
               {tech.nom}
             </TableCell>
-            <TableCell className="text-right border-r border-white">{tech.prenom}</TableCell>
-            <TableCell className="text-right border-r border-white">{tech.email}</TableCell>
+            <TableCell className="text-right border-r border-white text-white">{tech.prenom}</TableCell>
+            <TableCell className="text-right border-r border-white text-white">{tech.email}</TableCell>
             <TableCell className="text-right">{tech.numero}</TableCell>
                    
           </TableRow>
