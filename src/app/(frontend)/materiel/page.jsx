@@ -7,6 +7,7 @@ import { MaterielTable } from '@/components/MaterielTable';
 
 
 
+export const revalidate = 10;
 
 const page = async ({searchParams}) => {
 

@@ -10,16 +10,7 @@
           type: "string",
           validation: (Rule) => Rule.required(),
         },
-        {
-          name: "slug",
-          title: "Slug",
-          type: "slug",
-          options: {
-            source: "nom", // Use the "name" field as the source for generating the slug
-            maxLength: 200, // Adjust the maximum length as needed
-          },
-          validation: (Rule) => Rule.required(),
-        },
+
         {
           name: "image",
           title: "Image",
@@ -30,12 +21,6 @@
           validation: (Rule) => Rule.required(),
         },
   
-        {
-          name: "description",
-          title: "Description",
-          type: "text",
-          validation: (Rule) => Rule.required(),
-        },
  
 
         {

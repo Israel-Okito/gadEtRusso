@@ -1,4 +1,3 @@
-import { client } from "../lib/client";
 
 const technicien = {
 
@@ -55,7 +54,7 @@ const technicien = {
 
     {
       name: "numero",
-      title: "Numero",
+      title: "Numero de téléphone",
       type: "string",
       validation: (Rule) => Rule.required(),
     },

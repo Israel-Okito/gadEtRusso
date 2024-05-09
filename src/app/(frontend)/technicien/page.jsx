@@ -17,6 +17,7 @@ import { groq } from 'next-sanity'
 import { urlForImage } from '../../../../sanity/lib/image';
 
 
+export const revalidate = 10;
 
 const page = async () => {
 
