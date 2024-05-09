@@ -16,16 +16,16 @@ return (
                
              </Link>
          
-        <div className='flex flex-col px-1  pb-4 pt-28 gap-10 '>
+        <div className='flex flex-col px-1  pb-4 pt-28 gap-10  text-white'>
     
             <Link href='/technicien'>
-                <div className=' flex items-center  gap-[10px]  hover:bg-slate-900 cursor-pointer  p-1 rounded-lg'>
+                <div className=' flex items-center  gap-[10px]  text-white hover:bg-slate-900 cursor-pointer  p-1 rounded-lg'>
                 <FaUserGear  size={25}/>
                   <p>Techniciens</p>
                 </div>
              </Link>
             <Link href='/materiel'>
-                <div className=' flex items-center  gap-[10px]  hover:bg-slate-900 cursor-pointer my-1 p-1 rounded-lg'>
+                <div className=' flex items-center  gap-[10px]  text-white hover:bg-slate-900 cursor-pointer my-1 p-1 rounded-lg'>
                  <FcAutomatic size={25}/>
                   <p > Matériels</p>
                 </div>
